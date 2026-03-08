@@ -1,0 +1,110 @@
+{
+  "date": "2026-03-08T18:44:39.570005",
+  "news": [
+    {
+      "title": "百度文心一言用户突破1亿，API调用量日增300%",
+      "source": "36kr",
+      "url": "https://36kr.com/news/123456",
+      "summary": "百度官方数据显示，文心一言上线以来用户数快速增长",
+      "related_stocks": [
+        "BIDU",
+        "9888.HK"
+      ]
+    },
+    {
+      "title": "阿里云发布最新AI模型训练集群，性能提升40%",
+      "source": "虎嗅",
+      "url": "https://huxiu.com/news/234567",
+      "summary": "阿里云推出新一代GPU集群，专注大模型训练",
+      "related_stocks": [
+        "BABA",
+        "9988.HK"
+      ]
+    },
+    {
+      "title": "科大讯飞发布星火大模型4.0，语音交互能力大幅提升",
+      "source": "钛媒体",
+      "url": "https://tmtpost.com/news/345678",
+      "summary": "科大讯飞展示最新AI能力，落地场景进一步扩展",
+      "related_stocks": [
+        "002230.SZ"
+      ]
+    },
+    {
+      "title": "腾讯混元大模型接入微信搜索，AI助手呼之欲出",
+      "source": "财新",
+      "url": "https://caixin.com/news/456789",
+      "summary": "腾讯AI能力与微信生态深度整合",
+      "related_stocks": [
+        "0700.HK",
+        "TCEHY"
+      ]
+    },
+    {
+      "title": "字节跳动AI研究院开源新一代多模态模型",
+      "source": "机器之心",
+      "url": "https://jiqizhixin.com/news/567890",
+      "summary": "字节跳动开源模型性能接近GPT-4V",
+      "related_stocks": [
+        "BDNYSE"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "stock_code": "BIDU",
+      "stock_name": "百度",
+      "news_title": "百度文心一言用户突破1亿，API调用量日增300%",
+      "news_summary": "百度官方数据显示，文心一言上线以来用户数快速增长",
+      "company_position": "国内AI领军企业，文心一言为核心产品",
+      "industry": "AI/搜索引擎",
+      "signal": "正面",
+      "confidence": "中等",
+      "reasoning": "基于新闻'百度文心一言用户突破1亿，API调用量日增300%'，百度在AI/搜索引擎领域国内AI领军企业，文心一言为核心产品。"
+    },
+    {
+      "stock_code": "BABA",
+      "stock_name": "阿里巴巴",
+      "news_title": "阿里云发布最新AI模型训练集群，性能提升40%",
+      "news_summary": "阿里云推出新一代GPU集群，专注大模型训练",
+      "company_position": "阿里云国内第一，AI算力布局完善",
+      "industry": "云计算/电商",
+      "signal": "正面",
+      "confidence": "中等",
+      "reasoning": "基于新闻'阿里云发布最新AI模型训练集群，性能提升40%'，阿里巴巴在云计算/电商领域阿里云国内第一，AI算力布局完善。"
+    },
+    {
+      "stock_code": "002230.SZ",
+      "stock_name": "科大讯飞",
+      "news_title": "科大讯飞发布星火大模型4.0，语音交互能力大幅提升",
+      "news_summary": "科大讯飞展示最新AI能力，落地场景进一步扩展",
+      "company_position": "语音AI龙头，教育+医疗场景落地",
+      "industry": "AI/语音技术",
+      "signal": "正面",
+      "confidence": "中等",
+      "reasoning": "基于新闻'科大讯飞发布星火大模型4.0，语音交互能力大幅提升'，科大讯飞在AI/语音技术领域语音AI龙头，教育+医疗场景落地。"
+    },
+    {
+      "stock_code": "0700.HK",
+      "stock_name": "腾讯",
+      "news_title": "腾讯混元大模型接入微信搜索，AI助手呼之欲出",
+      "news_summary": "腾讯AI能力与微信生态深度整合",
+      "company_position": "混元大模型+微信生态",
+      "industry": "社交/云/AI",
+      "signal": "中性",
+      "confidence": "中等",
+      "reasoning": "基于新闻'腾讯混元大模型接入微信搜索，AI助手呼之欲出'，腾讯在社交/云/AI领域混元大模型+微信生态。"
+    },
+    {
+      "stock_code": "BDNYSE",
+      "stock_name": "字节跳动",
+      "news_title": "字节跳动AI研究院开源新一代多模态模型",
+      "news_summary": "字节跳动开源模型性能接近GPT-4V",
+      "company_position": "AI研究院实力强劲，海外TikTok数据优势",
+      "industry": "AI/内容平台",
+      "signal": "正面",
+      "confidence": "中等",
+      "reasoning": "基于新闻'字节跳动AI研究院开源新一代多模态模型'，字节跳动在AI/内容平台领域AI研究院实力强劲，海外TikTok数据优势。"
+    }
+  ]
+}
