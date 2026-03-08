@@ -1,0 +1,39 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    # 每天早上6点 UTC = 晚上10点 北京时间
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run news collector
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python collect_news.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "AI News Bot"
+          git add index.html data.json
+          git diff --quiet --cached || git commit -m "Update: $(date +%Y-%m-%d)"
+          git push
